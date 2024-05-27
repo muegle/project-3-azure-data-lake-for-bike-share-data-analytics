@@ -29,7 +29,7 @@ The goal of this project is to develop a data lake solution using Azure Databric
 * Based on how many rides the rider averages per month
 * Based on how many minutes the rider spends on a bike per month
 
-### **Task 1:** Design a star schema based on the business outcomes below;
+### **Task 1:** Design a star schema based on the business outcomes above;
 
 <img src="files/starschema_embedded.png" alt="star schema">
 
