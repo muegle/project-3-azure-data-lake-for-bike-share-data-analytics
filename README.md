@@ -2,4 +2,4 @@
 
 ## Project Overview
 
-
+<img src="files/bikesharep3.jpeg" alt="star model">
