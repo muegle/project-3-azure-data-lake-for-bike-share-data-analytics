@@ -35,6 +35,12 @@ The goal of this project is to develop a data lake solution using Azure Databric
 
 ### **Task 2:** Import the data into Azure Databricks using Delta Lake to create a Bronze data store;
 
+<img src="files/DBFS_File_Upload.png" alt="star schema">
+
 ### **Task 3:** Create a gold data store in Delta Lake tables;
 
+<img src="files/Load_Staging_Tables.png" alt="star schema">
+
 ### **Task 4:** Transform the data into the star schema for a Gold data store;
+
+<img src="files/Transform_Fact_Dim_Tables.png" alt="star schema">
