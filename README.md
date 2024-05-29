@@ -33,14 +33,23 @@ The goal of this project is to develop a data lake solution using Azure Databric
 
 <img src="files/starschema_embedded.png" alt="star schema">
 
+
 ### **Task 2:** Import the data into Azure Databricks using Delta Lake to create a Bronze data store;
 
 <img src="files/DBFS_File_Upload.png" alt="star schema">
 
+The notebook **extractData.ipynb** extracts the information from CSV files stored in Databricks and write it to the Delta file system.
+
+
 ### **Task 3:** Create a gold data store in Delta Lake tables;
+
+The notebook **loadData.ipynb** creates tables and loads data from Delta files that were extracted in the Extract step.
 
 <img src="files/Load_Staging_Tables.png" alt="star schema">
 
+
 ### **Task 4:** Transform the data into the star schema for a Gold data store;
+
+The notebook **transform.ipynb** creates the fact und dimension tables according to my star schema.
 
 <img src="files/Transform_Fact_Dim_Tables.png" alt="star schema">
