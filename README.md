@@ -31,7 +31,7 @@ The goal of this project is to develop a data lake solution using Azure Databric
 
 ### **Task 1:** Design a star schema based on the business outcomes above;
 
-<img src="files/starschema_embedded2.png" alt="star schema">
+<img src="files/starschema_embedded.png" alt="star schema">
 
 
 ### **Task 2:** Import the data into Azure Databricks using Delta Lake to create a Bronze data store;
